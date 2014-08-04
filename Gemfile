@@ -30,13 +30,14 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
   gem 'cucumber'
   gem 'sqlite3'
+  gem 'minitest'
 end
 group :test do
-  gem 'capybara'
+  gem 'capybara', '2.1.0'
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '2.35.1'
 end
 group :production do
   gem 'pg', '0.17.1'
